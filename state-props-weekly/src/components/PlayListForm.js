@@ -45,7 +45,7 @@ render(){
         <FormGroup className="form">
         <br/>
           <Label for="username">Username:</Label>
-          <Input type="text" id="username" placeholder="Type in your username" onChange={this.handleSongUserName} value={this.state.userName} />
+          <Input type="text" id="username" placeholder="Type in your username" onChange={this.handleUserName} value={this.state.userName} />
           <br/>
           <Label for="artist">Artist/Band:</Label>
           <Input type="text" name="artist" id="artist" placeholder="Search for an artist" onChange={this.handleSongArtist} value={this.state.songArtist}/>
