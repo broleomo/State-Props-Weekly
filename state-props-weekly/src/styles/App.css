@@ -1,0 +1,41 @@
+.form {
+  width: 400px;
+}
+
+
+.page-container {
+  display: flex;
+  padding-left: 30px;
+background: #545454;
+}
+
+.song-list {
+  padding-left: 25px;
+  padding-top:10px;
+}
+
+.nav-bar {
+  background-color: #2271CC;
+  font-weight: bold;
+}
+
+.nav-text {
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+.update-button {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.card-body {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.card {
+  display:flex;
+  flex-direction:row;
+}
